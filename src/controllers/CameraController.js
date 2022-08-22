@@ -2,8 +2,8 @@ const upload = require("../helpers/upload");
 const uploadBasic = require("../helpers/upload");
 module.exports = {
   index: (req, res) => {
-    uploadBasic();
-    // res.render("index");
+    // uploadBasic();
+    res.render("index");
   },
   store: async (req, res) => {
     // res.redirect("/");
